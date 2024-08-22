@@ -2,7 +2,11 @@
     "name": "miggi92-static",
     "version": "1.0.0",
     "repository": "github:miggi92/static",
+    "scripts": {
+        "build": "sponsorkit"
+      },
     "devDependencies": {
+        "@types/node": "^22.0.2",
         "sponsorkit": "^0.15.2"
     },
     "packageManager": "pnpm@9.7.1"
