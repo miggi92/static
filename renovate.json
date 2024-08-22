@@ -1,0 +1,9 @@
+{
+    "extends": ["config:recommended"],
+    "packageRules": [
+        {
+            "matchDepTypes": ["devDependencies"],
+            "automerge": true
+        }
+    ]
+}
