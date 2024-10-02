@@ -55,15 +55,4 @@ export default defineConfig({
       preset: presets.xl,
     },
   ],
-  renders: [
-    {
-      name: 'sponsors',
-      width: 800,
-    },
-    {
-      name: 'sponsors.past',
-      width: 800,
-      filter: (sponsor) => sponsor.monthlyDollars < 0
-    },
-  ]
 })
