@@ -1,4 +1,15 @@
-import { defineConfig, tierPresets } from 'sponsorkit'
+import { BadgePreset, defineConfig, presets } from 'sponsorkit'      
+
+const past: BadgePreset = {
+  avatar: {
+    size: 20,
+  },
+  boxWidth: 22,
+  boxHeight: 22,
+  container: {
+    sidePadding: 35,
+  },
+}
 
 export default defineConfig({
     formats: ['svg', 'png'],
