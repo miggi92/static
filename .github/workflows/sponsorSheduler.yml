@@ -13,14 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
 
       - name: Set node
         uses: actions/setup-node@v6
         with:
           node-version: lts/*
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v5
       - run: corepack enable && pnpm i
 
       - name: Update sponsors
