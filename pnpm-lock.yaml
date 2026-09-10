@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^24.0.0
-        version: 24.13.3
+        version: 24.13.4
       sponsorkit:
         specifier: ^18.0.0
-        version: 18.0.0(@types/node@24.13.3)
+        version: 18.0.0(@types/node@24.13.4)
 
 packages:
 
@@ -185,8 +185,8 @@ packages:
   '@quansync/fs@1.0.0':
     resolution: {integrity: sha512-4TJ3DFtlf1L5LDMaM6CanJ/0lckGNtJcMjQ1NAV6zDmA0tEHKZtxNKin8EgPaVX1YzljbxckyT2tJrpQKAtngQ==}
 
-  '@types/node@24.13.3':
-    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
+  '@types/node@24.13.4':
+    resolution: {integrity: sha512-YJ7EqCstVTzIr0fMr7qul/977en+pQHrfmuKIo6Zr9i75Be21dr3MovcfvGtyvi2HAUrRerWps5sMO9I7WaxDw==}
 
   ansis@4.3.1:
     resolution: {integrity: sha512-BJ8/l4R5LRE7hW9WdSuGYrLSHi2ynxeFpDFbH0K/CgNeY/tyhk+vO6TYxXC5r5CpUhNVX310xzPsN/H9lCdfOA==}
@@ -390,7 +390,7 @@ snapshots:
     dependencies:
       quansync: 1.0.0
 
-  '@types/node@24.13.3':
+  '@types/node@24.13.4':
     dependencies:
       undici-types: 7.18.2
 
@@ -428,7 +428,7 @@ snapshots:
 
   semver@7.8.5: {}
 
-  sharp@0.35.3(@types/node@24.13.3):
+  sharp@0.35.3(@types/node@24.13.4):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -459,9 +459,9 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.3
       '@img/sharp-win32-ia32': 0.35.3
       '@img/sharp-win32-x64': 0.35.3
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
 
-  sponsorkit@18.0.0(@types/node@24.13.3):
+  sponsorkit@18.0.0(@types/node@24.13.4):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -470,7 +470,7 @@ snapshots:
       normalize-url: 9.0.1
       ofetch: 1.5.1
       p-limit: 7.3.1
-      sharp: 0.35.3(@types/node@24.13.3)
+      sharp: 0.35.3(@types/node@24.13.4)
       unconfig: 7.5.0
     transitivePeerDependencies:
       - '@types/node'
