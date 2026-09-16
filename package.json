@@ -4,9 +4,9 @@
     "repository": "github:miggi92/static",
     "scripts": {
         "build": "sponsorkit"
-      },
+    },
     "devDependencies": {
-        "@types/node": "^24.0.0",
+        "@types/node": "^26.5.1",
         "sponsorkit": "^18.0.0"
     },
     "packageManager": "pnpm@12.4.2"
